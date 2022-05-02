@@ -1,0 +1,30 @@
+body{
+    font-size: 13px;
+}
+
+.navigation-button__close{
+    width: 100px;                    // Button Size
+    height: 100px;  
+    background-color: #1658A1;    //color
+    display: flex;                  //Lock
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: none;                   //CSS reset
+
+    :nth-child(n){
+        display: block;
+        width: 80%;
+        height: 2px;
+        background-color: #FFFFFF;
+        position: absolute;
+    }
+
+    :nth-child(1){
+        transform: rotate(45deg);
+    }
+
+    :nth-child(2){
+        transform: rotate(-45deg);
+    }
+}

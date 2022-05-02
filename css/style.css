@@ -1,0 +1,39 @@
+body {
+  font-size: 13px;
+}
+
+.navigation-button__close {
+  width: 100px;
+  height: 100px;
+  background-color: #1658A1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  border: none;
+}
+
+.navigation-button__close :nth-child(n) {
+  display: block;
+  width: 80%;
+  height: 2px;
+  background-color: #FFFFFF;
+  position: absolute;
+}
+
+.navigation-button__close :nth-child(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.navigation-button__close :nth-child(2) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/*# sourceMappingURL=style.css.map */
